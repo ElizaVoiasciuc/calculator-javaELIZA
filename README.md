@@ -9,8 +9,10 @@ Calculator::Calculate		 12
 Am folosit instrumentul Codalyze din Visual Studio Code, din care intelegem ca metoda "evaluateExpression" are complexitatea ciclomatica 12. Aceeasi complexitate ciclomatica o are si metoda Calculate. Interpretarea rezultatelor obţinute urmarind scalele definite de Thomas McCabe, autorul complexităţii ciclomatice  este: 11–20 – cod moderat complex (risc moderat);
 
 3. Complexitatea  cognitivă a metodelor evaluateExpression şi Calculate.
+   
     * metoda evaluateExpression *
-  Avand in vedere ca sunt prezente mai multe constructii pentru controlul fluxului precum bucle for, blocuri condiţionate if-else, dar si imbricării suplimentare ale acestora, codul acestei metode este considerat complex. Am calculat o complexitate cognitiva de 14 puncte:
+      
+Avand in vedere ca sunt prezente mai multe constructii pentru controlul fluxului precum bucle for, blocuri condiţionate if-else, dar si imbricării suplimentare ale acestora, codul acestei metode este considerat complex. Am calculat o complexitate cognitiva de 14 puncte:
 * primul bloc conditionat if =1 punct
 * bucla for si imbricărea suplimentara if = 1+2 puncte
 * bucla for = 1 punct
@@ -18,7 +20,8 @@ Am folosit instrumentul Codalyze din Visual Studio Code, din care intelegem ca m
   * pentru ultima avem imbricărea suplimentara try = 3 puncte
  
   * metoda Calculate *
- Avand in vedere ca sunt prezente mai multe  blocuri condiţionate if-else, cu imbricării suplimentare, codul acestei metode este considerat complex. Am calculat o complexitate cognitiva de 15 puncte dupa cum urmeaza:
+    
+Avand in vedere ca sunt prezente mai multe  blocuri condiţionate if-else, cu imbricării suplimentare, codul acestei metode este considerat complex. Am calculat o complexitate cognitiva de 15 puncte dupa cum urmeaza:
 * bloc conditionat if =1 punct
 * bloc conditionat if =1 punct
    * imbricărea suplimentara if= 2 puncte
