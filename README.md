@@ -50,13 +50,19 @@ Efectuarea operațiunilor matematice prin introducerea expresiei de catre utiliz
           Analiză statică
           
 Calculator.java - nr liniei de cod: 4 - Add a private constructor to hide the implicit public one.( ne cere sa adaugam un constructor privat pentru a ascunde cel implicit)
+
 Calculator.java - nr liniei de cod: 18 - Rename method "ToString" to prevent any misunderstanding/clash with method "toString" defined in superclass "java.lang.Object". ( ne sugereaza sa redenumim metoda pentru a evita confuzia cu alta metoda car ese numeste "toString")
+
 Calculator.java - nr liniei de cod: 24 - Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'. ( ne zice sa redenumim metoda)
+
 Calculator.java - nr liniei de cod: 70 - Immediately return this expression instead of assigning it to the temporary variable "textResult". (putem returna imediat expresia pentru a evita ocuparea inutila a spatiului in memorie in loc sa cream o vatiabila temporara)
+
 Calculator.java - nr liniei de cod: 74 - Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'. ( ne zice sa redenumim metoda)
+
 Calculator.java - nr liniei de cod: 183 - Remove this redundant jump. ( nu este nevoie de 'return' la finalul programului deci de spune ca e inutil sa-l folosim, si ca putem sa-l stergem)
 
 Start.java- nr liniei de cod: 6 - Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+
 Start.java- nr liniei de cod: 8 si 19- Replace this use of System.out or System.err by a logger. (Clasa System conține mai multe câmpuri și metode utile de clasă. Nu poate fi instanțiată. Printre facilitățile oferite de clasa System se numără fluxurile de intrare standard, de ieșire standard și de ieșire de eroare; acces la proprietăți definite extern și variabile de mediu; un mijloc de încărcare a fișierelor și bibliotecilor; și o metodă de utilitate pentru copierea rapidă a unei porțiuni dintr-o matrice.)
 
       
