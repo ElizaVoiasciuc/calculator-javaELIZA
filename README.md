@@ -47,7 +47,7 @@ Programul are o licență care ne permite controlul complet, modificarea,citirea
 Este format din două fișiere: Start.java și Calculator.java. Aceste două fișiere fac parte din același program, unde Start.java este clasa care conține metoda principală „main” care se execută la pornirea programului și prin care se realizează interacțiunea cu utilizatorii, în timp ce „Calculator.java” este clasa care conține logica pentru executarea operațiilor matematice la intrarea utilizatorului în consola „Start.java” și unde este tipărit rezultatul.
 Efectuarea operațiunilor matematice prin introducerea expresiei de catre utilizator se face printr-o buclă infinită în „Start.java” și continuă până când utilizatorul tasteaza „exit” pentru a ieși din program.
 
-          Analiză statică
+          Analiza statica
           
 Calculator.java - nr liniei de cod: 4 - Add a private constructor to hide the implicit public one.( ne cere sa adaugam un constructor privat pentru a ascunde cel implicit)
 
