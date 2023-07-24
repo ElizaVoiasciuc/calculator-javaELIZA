@@ -19,7 +19,7 @@ Avand in vedere ca sunt prezente mai multe constructii pentru controlul fluxului
   * bloc conditionat if/ else if /else  =2+2+2 puncte
   * pentru ultima avem imbricărea suplimentara try = 3 puncte
  
-  * metoda Calculate *
+* metoda Calculate *
     
 Avand in vedere ca sunt prezente mai multe  blocuri condiţionate if-else, cu imbricării suplimentare, codul acestei metode este considerat complex. Am calculat o complexitate cognitiva de 15 puncte dupa cum urmeaza:
 * bloc conditionat if =1 punct
