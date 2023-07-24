@@ -16,21 +16,21 @@ Avand in vedere ca sunt prezente mai multe constructii pentru controlul fluxului
 * primul bloc conditionat if =1 punct
 * bucla for si imbricărea suplimentara if = 1+2 puncte
 * bucla for = 1 punct
-  * bloc conditionat if/ else if /else  =2+2+2 puncte
-  * pentru ultima avem imbricărea suplimentara try = 3 puncte
+  - bloc conditionat if/ else if /else  =2+2+2 puncte
+  - pentru ultima avem imbricărea suplimentara try = 3 puncte
  
 * metoda Calculate *
     
 Avand in vedere ca sunt prezente mai multe  blocuri condiţionate if-else, cu imbricării suplimentare, codul acestei metode este considerat complex. Am calculat o complexitate cognitiva de 15 puncte dupa cum urmeaza:
 * bloc conditionat if =1 punct
 * bloc conditionat if =1 punct
-   * imbricărea suplimentara if= 2 puncte
-   * imbricărea suplimentara else = 2 puncte
+   - imbricărea suplimentara if= 2 puncte
+   - imbricărea suplimentara else = 2 puncte
 * bloc conditionat if =1 punct
 * bloc conditionat if =1 punct
 * bloc conditionat if =1 punct
-   * imbricărea suplimentara if= 2 puncte
-   * imbricărea suplimentara else = 2 puncte
+   - imbricărea suplimentara if= 2 puncte
+   - imbricărea suplimentara else = 2 puncte
 * bloc conditionat if =1 punct
 * bloc conditionat if =1 punct
 
