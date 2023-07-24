@@ -36,7 +36,7 @@ Avand in vedere ca sunt prezente mai multe  blocuri condiţionate if-else, cu im
 
 Putem concluziona că aceste metode au o complexitate cognitiva relativ ridicată. Metoda "evaluateExpression" efectuează mai mulți pași pentru a calcula valoarea expresiei date ca parametru de intrare. Complexitatea este sporită și mai mult de faptul că metoda trebuie să gestioneze cazuri diferite în funcție de prezența diferitelor operații aritmetice în expresie. Acest lucru  face codul dificil de înțeles deoarece  necesită o monitorizare atentă. Metoda "Calculate" folosește diferiți algoritmi pentru a efectua operații matematice (adunare, scădere,înmulțire, împărțire) și manipulare a listelor de "numere" și "operații" pentru a calcula rezultatul final.
 
-4.Efectuaţi o revizuire informală a codului şi o analiză statică (fără a rula codul). Formulaţi concluziile sub forma unui raport în următorul format:
+4. Efectuaţi o revizuire informală a codului şi o analiză statică (fără a rula codul). Formulaţi concluziile sub forma unui raport în următorul format:
 fişier – numărul liniei de cod – observaţie
 
             Analiza informala a codului
