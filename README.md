@@ -10,7 +10,7 @@ Am folosit instrumentul Codalyze din Visual Studio Code, din care intelegem ca m
 
 3. Complexitatea  cognitivă a metodelor evaluateExpression şi Calculate.
    
-     Metoda evaluateExpression 
+Metoda evaluateExpression 
       
 Avand in vedere ca sunt prezente mai multe constructii pentru controlul fluxului precum bucle for, blocuri condiţionate if-else, dar si imbricării suplimentare ale acestora, codul acestei metode este considerat complex. Am calculat o complexitate cognitiva de 14 puncte:
 * primul bloc conditionat if =1 punct
@@ -19,7 +19,7 @@ Avand in vedere ca sunt prezente mai multe constructii pentru controlul fluxului
   - bloc conditionat if/ else if /else  =2+2+2 puncte
   - pentru ultima avem imbricărea suplimentara try = 3 puncte
  
-     Metoda Calculate 
+ Metoda Calculate 
     
 Avand in vedere ca sunt prezente mai multe  blocuri condiţionate if-else, cu imbricării suplimentare, codul acestei metode este considerat complex. Am calculat o complexitate cognitiva de 15 puncte dupa cum urmeaza:
 * bloc conditionat if =1 punct
