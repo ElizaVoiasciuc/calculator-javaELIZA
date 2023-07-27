@@ -1,0 +1,51 @@
+Testarea black box:
+    
+1. Caz : utilizatorul introduce un spatiu gol.
+Rezultat asteptat : ERROR
+Rezultat primit : ERROR
+
+1. Caz : utilizatorul introduce un string.
+Rezultat asteptat : ERROR
+Rezultat primit : ERROR
+
+2. Caz : utilizatorul introduce un numar negativ, 0 si un numar pozitiv.
+Rezultat asteptat: numarul introdus
+Rezultat primit : numarul introdus
+
+3. Caz : utilizatorul introduce un exemplu de expresie in care 0 este impartit la un numar pozitiv oarecare.
+Rezultat asteptat: 0
+Rezultat primit : 0
+
+6. Caz : utilizatorul introduce un exemplu de expresie in care 0 este impartit la un numar negativ oarecare.
+Rezultat asteptat: 0
+Rezultat primit : ERROR
+
+!! NOTA: rezultatul nu este cel asteptat.
+
+7. Caz : utilizatorul introduce o expresie cu numere pozitive:10+5*4+3.
+Rezultat asteptat: 33
+Rezultat primit : 33
+
+8. Caz : utilizatorul introduce o expresie cu numere negative:-10+5*4+3.
+Rezultat asteptat: 13
+Rezultat primit : 13
+
+9. Caz : utilizatorul introduce o expresie cu numere zecimale:-10.5+5.2*4.3+3.1.
+Rezultat asteptat: 14.960001
+Rezultat primit : 14.960001
+
+10. Caz : utilizatorul introduce o expresie in care se face inmultirea cu zero.
+Rezultat asteptat: 0
+Rezultat primit : 0
+
+11. Caz : utilizatorul introduce o expresie in care se face impartirea unui numar la zero.
+Rezultat asteptat: error
+Rezultat primit : "infinity"
+Comentariu: ar fi trebuit sa primim eroare. Sugestie : am putea afisa in locul erorii un mesaj cu "impartirea la 0 nu este posibila"
+
+12. Caz : utilizatorul introduce o expresie in care se foloseste o operatie aritmetica care nu exista : exemplu "&".
+Rezultat asteptat : ERROR
+Rezultat primit : ERROR
+
+Testul unitar pentru metoda Calculate:
+
