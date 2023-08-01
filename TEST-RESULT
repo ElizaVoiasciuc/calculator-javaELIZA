@@ -49,3 +49,23 @@ Rezultat primit : ERROR
 
 Testul unitar pentru metoda Calculate:
 
+Avand in vede ca metoda Calculate este o metoda privata, trebuie sa testam interfata publica Run:
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+
+public class CalculateTest{
+    @Test
+    public void doi_plus_doi_ar_trebui_sa_dea_patru() {
+
+            String expresie = "2+2";
+            String expected_result = "4.0";
+            String actual_result = Calculator.Run(expresie);
+            assertEquals(expected_result,actual_result);
+            System.out.println("totul este ok");   
+
+    }
+}
+
+
